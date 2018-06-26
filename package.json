@@ -1,0 +1,24 @@
+{
+  "name": "wlxmBlog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.0.0",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.9.3",
+    "stylus": "^0.54.5",
+    "vue-template-compiler": "^2.5.16",
+    "vuepress": "^0.10.2"
+  }
+}
